@@ -1,5 +1,6 @@
 package Base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -24,6 +25,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
+        //at 1:07 in the video
 
     }
     @AfterMethod
@@ -31,5 +33,10 @@ public class CommonAPI {
 
         driver.close();
         driver = null;
+    }
+
+    public void clickByXpath(String locator){ driver.findElement(By.xpath(locator)).click(); }
+    public void typeByXpath(String locator, String value) {
+        driver.findElement(By.xpath(locator)).sendKeys(value);
     }
 }

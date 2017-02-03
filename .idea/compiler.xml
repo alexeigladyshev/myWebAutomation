@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Alibaba" />
+        <module name="Amazon" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Alibaba" target="1.5" />
+      <module name="Amazon" target="1.5" />
       <module name="Generic" target="1.5" />
       <module name="TestAppMentoring" target="1.5" />
     </bytecodeTargetLevel>

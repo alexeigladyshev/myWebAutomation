@@ -12,13 +12,15 @@ import org.testng.annotations.Test;
 public class TestHomePageSignIn extends CommonAPI {
 
     @Test
-    public void AlibabaSignInNavigate(){
+    public void AlibabaSignInNavigate() throws InterruptedException {
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(driver.findElement(By.xpath(".//*[@id='J_SC_header']/header/div[2]/div[3]/div[1]/div[1]"))
-        ).moveToElement(driver.findElement(By.xpath(".//*[@id='J_SC_header']/header/div[2]/div[3]/div[1]/div[2]/div[1]/div[2]/a[1]"))
+        Thread.sleep(5000);
+        actions.moveToElement(driver.findElement(By.cssSelector(".J-hd-m-notify-tab-trigger.sc-hd-ms-trigger.sc-hd-ms-unsign"))
+        ).moveToElement(driver.findElement(By.cssSelector(".sc-hd-ms-btsignin"))
         ).click().build().perform();
-        Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='fm-login-submit']")).isDisplayed());
+        Thread.sleep(5000);
+        Assert.assertTrue(driver.findElement(By.cssSelector("#fm-login-submit")).isDisplayed());
 
 
 
