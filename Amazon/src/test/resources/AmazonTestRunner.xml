@@ -4,7 +4,8 @@
     <parameter name="url" value="http://www.amazon.com/"/>
     <test name="TestHomepage">
         <classes>
-            <class name="Homepage.TestHomeTopNav"/>
+            <!--<class name="Homepage.TestHomeTopNav"/>-->
+            <class name="Homepage.TestSignIn"/>
         </classes>
     </test>
 
