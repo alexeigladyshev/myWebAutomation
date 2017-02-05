@@ -25,7 +25,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
-        //at 1:07 in the video
+
 
     }
     @AfterMethod
