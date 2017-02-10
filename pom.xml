@@ -10,8 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Alibaba</module>
         <module>Amazon</module>
+        <module>Pinterest</module>
     </modules>
 
     <dependencyManagement>

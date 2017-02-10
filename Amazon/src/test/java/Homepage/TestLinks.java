@@ -6,22 +6,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by aleks_000 on 2/3/2017.
  */
-public class TestSignIn extends CommonAPI {
+public class TestLinks extends CommonAPI {
 
     @Test(priority = 3)
-    public void testSignInBlankCredentials() throws InterruptedException {
+    public void testAllVideosLink() throws InterruptedException {
 
-        Actions actions = new Actions(driver);
-        actions.moveToElement(driver.findElement(By.xpath(".//*[@id='nav-link-accountList']/span[2]/span")));
-        Thread.sleep(3000);
-        actions.click(driver.findElement(By.xpath(".//*[@id='nav-flyout-ya-signin']/a/span"))).perform();
-        //Thread.sleep(3000);
-        clickByXpath(".//*[@id='signInSubmit']");
-        Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='auth-email-missing-alert']/div/div")).getText().contains("Enter your email or mobile phone number"));
-        //Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='auth-password-missing-alert']/div/div")).getText().equals(" Enter your password"));
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        //click on the AllVideos link
+        (driver.findElement(By.xpath(".//*[@id='nav-z-link-video']"))).click();
+
+        Assert.assertTrue(true);
     }
     //@Test(priority = 4)
     public void TestSignInNoPassword(){
