@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe07432-bdf3-43f1-a398-6893b4ffd8c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Pinterest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/src/test/java/Homepage/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/src/test/java/Homepage/TakesScreenShot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/src/test/resources/PinterestTestRunner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/Alibaba.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/Homepage/TestHomePageSignIn.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Alibaba/src/test/java/Resources/AlibabaTestRunner.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Homepage/TestSignIn.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Homepage/TestLinks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -796,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486255545248</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="screenshot functionality added">
+      <created>1486686943773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1486686943773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -904,7 +894,8 @@
     <MESSAGE value="Marginal updates" />
     <MESSAGE value="More marginal updates" />
     <MESSAGE value="marginal updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="marginal updates" />
+    <MESSAGE value="screenshot functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshot functionality added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
