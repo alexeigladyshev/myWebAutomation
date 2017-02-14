@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
         <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Amazon">
-<parameter name="url" value="http://www.amazon.com/"/>
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="alexei1"/>
+    <parameter name="accessKey" value="6429a6ed-bc8a-45b9-96bf-59ba979ec018"/>
+    <parameter name="os" value="Win"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="56.0.2924.87"/>
+    <parameter name="url" value="http://www.amazon.com"/>
+
 <test name="TestHomepage">
     <classes>
         <class name="Homepage.TestHomeTopNav"/>

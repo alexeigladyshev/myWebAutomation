@@ -37,7 +37,8 @@ public class TestLinks extends CommonAPI {
     public void TestSignInIncorrectCredentials(){
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(driver.findElement(By.xpath(".//*[@id='nav-link-accountList']"))).moveToElement(driver.findElement(By.xpath(".//*[@id='nav-flyout-ya-signin']/a/span"))).click().build().perform();
+        actions.moveToElement(driver.findElement(By.xpath(".//*[@id='nav-link-accountList']"))).perform();
+        actions.moveToElement(driver.findElement(By.xpath(".//*[@id='nav-flyout-ya-signin']/a/span"))).click().build().perform();
         typeByXpath(".//*[@id='ap_email']","Incorrectuser");
         typeByXpath(".//*[@id='ap_password']", "Incorrectpassword");
         clickByXpath(".//*[@id='signInSubmit']");

@@ -46,6 +46,7 @@ public class TakesScreenShot extends CommonAPI {
 
         DateFormat df = new SimpleDateFormat("ddMMyy-HHmmss");
         Date dateobj = new Date();
+
         df.format(dateobj);
         String fileName = "Screenshots\\screenshot"+df.format(dateobj)+".png";
         FileUtils.copyFile(scrFile, new File(fileName));

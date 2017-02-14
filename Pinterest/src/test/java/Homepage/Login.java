@@ -13,7 +13,7 @@ import java.util.Map;
 public class Login extends CommonAPI {
 
     @Test
-    public void TestLogin() {
+    public void TestMainLinks() {
 
 
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Amazon">
+    <parameter name="url" value="http://www.msnbc.com/"/>
+    <parameter name="useCloudEnv" value="false"/>
+
+    <test name="TestHomepage">
+        <classes>
+            <class name="Homepage.testLinks"/>
+        </classes>
+    </test>
+
+</suite>

@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Pinterest</module>
+        <module>msnbc</module>
     </modules>
 
     <dependencyManagement>
