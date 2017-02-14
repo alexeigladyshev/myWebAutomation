@@ -12,8 +12,8 @@
 
 <test name="TestHomepage">
     <classes>
-        <!--<class name="Homepage.Login"/>-->
-        <class name="Homepage.TakesScreenShot"/>
+        <class name="Homepage.TestPageFactory"/>
+        <!--<class name="Homepage.TakesScreenShot"/>-->
     </classes>
 </test>
 
