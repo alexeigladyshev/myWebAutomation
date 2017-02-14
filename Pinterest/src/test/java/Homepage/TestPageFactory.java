@@ -20,14 +20,6 @@ public class TestPageFactory extends CommonAPI {
     @Test
     public void search1() throws InterruptedException, IOException {
 
-        //signing in
-        driver.findElement(By.xpath("html/body/div[1]/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div/form/fieldset[1]/input"))
-                .sendKeys(username);
-        Thread.sleep(4000);
-        //enter my password into password box
-        driver.findElement(By.xpath("html/body/div[1]/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div/form/fieldset[2]/input"))
-                .sendKeys(password);
-        driver.findElement(By.cssSelector(".red.SignupButton")).click();
 
 
         PageFactoryMain.PageFactorySearch sequence = PageFactory.initElements(driver, PageFactoryMain.PageFactorySearch.class);
